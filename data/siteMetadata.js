@@ -1,25 +1,26 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
-  language: 'en-us',
+  title: 'よしかわーるど',
+  author: 'よしかわ たいき',
+  headerTitle: 'よしかわーるど',
+  description:
+    '2022年卒の情報系大学生がIT分野で奮闘するブログです。GoやRust, Reactなどを書いているので、OSS活動や研究に関することをまとめます。',
+  language: 'ja-jp',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://yoshikawa.dev',
+  siteRepo: 'https://github.com/yoshikawa/blog',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  image: '/static/images/avatar.jpeg',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  locale: 'en-US',
+  email: 'yoshikawataiki@gmail.com',
+  github: 'https://github.com/yoshikawa',
+  twitter: 'https://twitter.com/yoshikawataiki',
+  facebook: 'https://facebook.com/yoshikawaTai',
+  youtube: 'https://www.youtube.com/channel/UCyh8xiVW6ck473ht6Dav2VA?sub_confirmation=1',
+  linkedin: '',
+  locale: 'ja-JP',
   analytics: {
     // supports plausible, simpleAnalytics, umami or googleAnalytics
-    plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    plausibleDataDomain: 'yoshikawa.dev', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
     umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
     googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
