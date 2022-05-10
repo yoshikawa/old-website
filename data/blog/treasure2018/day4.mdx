@@ -61,10 +61,11 @@ POST, PUT, DELETE のときにキャッシュを更新
 - HTTP
 - hypermedia
 
-https://martinfowler.com/articles/richardsonMaturityModel.html
+[https://martinfowler.com/articles/richardsonMaturityModel.html](https://martinfowler.com/articles/richardsonMaturityModel.html)
 
 レベル分け
 
+```
 レベル 0: `POST /createComment {"body": "xxx", "repos": "xxxx", "issueid", 2}`
 
 レベル 1: resource `POST /repos/xxx/xxx/:issues/7 {"body": "hoge"}`
@@ -72,6 +73,7 @@ https://martinfowler.com/articles/richardsonMaturityModel.html
 レベル 2: resource + http method `POST /repos/xxx/xxx/:issues/5 {"body": "hoge"}`
 
 レベル 3: Hypermedia REST
+```
 
 #### layered system
 
@@ -100,7 +102,7 @@ Session はサーバ側に値があるので、データを改竄しにくい。
 
 #### URL 設計
 
-- /{resource}/{id}
+- `/{resource}/{id}`
 - singular vs plural(もの vs もの s)
 
 #### URL 設計(パラメータ)
